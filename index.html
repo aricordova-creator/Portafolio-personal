@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Mi Portafolio</title>
+
+    <style>
+
+       
+        body{
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #EEAECA;
+            background: radial-gradient(circle,rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+            color: white;
+        }
+        /* HEADER */
+.header {
+    grid-area: header;
+    background: rgba(194, 113, 176, 0.9);
+    color: rgb(1, 4, 11);
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    backdrop-filter: blur(10px);
+}
+/* MENU */
+.header nav ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+        .icono{
+            position: absolute;
+            font-size: 80px;
+            opacity: 0.15;
+        }
+
+        .icono1{
+            top: 50px;
+            left: 100px;
+            transform: rotate(-15deg);
+        }
+
+        .icono2{
+            top: 300px;
+            right: 120px;
+            transform: rotate(20deg);
+        }
+
+        .icono3{
+            bottom: 100px;
+            left: 200px;
+            transform: rotate(-10deg);
+        }
+
+        .icono4{
+            bottom: 200px;
+            right: 250px;
+            transform: rotate(15deg);
+        }
+
+        .icono5{
+            top: 150px;
+            right: 400px;
+            transform: rotate(-25deg);
+            }
+
+        
+        .contenedor{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            gap: 80px;
+        }
+
+        
+        .lado-izquierdo,
+        .lado-derecho{
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+        }
+
+        
+        .centro{
+            text-align: center;
+        }
+
+        
+        .foto-principal{
+            width: 320px;
+            height: 320px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 6px solid white;
+            box-shadow: 0px 0px 25px black;
+        }
+
+        
+        h1{
+            font-size: 50px;
+            margin-top: 20px;
+        }
+
+        
+        p{
+            font-size: 20px;
+            color: black;
+        }
+       
+        
+        .texto-carta{
+            font-family: Georgia, serif;
+            font-size: 22px;
+            font-style: italic;
+            margin-top: 10px;
+        }
+
+        
+        .boton{
+            display: inline-block;
+            padding: 15px 30px;
+            background-color: #7B68EE;
+            color: black;
+            text-decoration: none;
+            background: rgba(216, 191, 216,0.2);
+            backdrop-filter: blur(10px);
+            font-size: 18px;
+            transition: 0.4s;
+            box-shadow: 0px 0px 10px black;
+        }
+
+        
+        .boton:hover{
+            background-color: #4B0082;
+            transform: scale(1.1);
+        }
+
+    </style>
+
+</head>
+
+<body>
+    <!-- HEADER -->
+        <header class="header">
+
+            <h2>Arianna Joshabell Cordova Asencio</h2>
+
+            <nav>
+
+                <ul>
+
+                    <li>
+                        <a href="index.html">Inicio</a>
+                    </li>
+
+                    <li>
+                        <a href="sobremi.html">Sobre Mí</a>
+                    </li>
+
+                    <li>
+                        <a href="carrera.html">Mi Carrera</a>
+                    </li>
+
+                    <li>
+                        <a href="proyectos.html">Proyectos</a>
+                    </li>
+
+                    <li>
+                        <a href="competencias.html">Competencias</a>
+                    </li>
+                    <li>
+                        <a href="Evidencia.html">Evidencia</a>
+                    </li>
+
+                </ul>
+
+            </nav>
+
+        </header>
+    <div class="icono icono1">💻</div>
+
+    <div class="icono icono2">🖥️</div>
+
+    <div class="icono icono3">⌨️</div>
+
+    <div class="icono icono4">🌐</div>
+
+    <div class="icono icono5">⚡</div>
+    
+    
+
+    <header class="contenedor">
+
+        
+        <div class="lado-izquierdo">
+
+            <a href="sobremi.html" class="boton">
+                SOBRE MI
+            </a>
+             <br>
+            <br>
+            <br>
+
+            <a href="carrera.html" class="boton">
+                MI CARRERA 
+            </a>
+
+        </div>
+
+
+       
+        <div class="centro">
+
+            <img src="WhatsApp Image 2026-05-13 at 4.37.32 PM.jpeg" alt="Mi foto" class="foto-principal">
+
+            <h1>Hola, soy Arianna</h1>
+             <p>BIENVENIDOS A MI PORTAFOLIO</p>
+             <br>
+             <br>
+        <p class="texto-carta"> PON TODO LO QUE HAGAS EN MANOS DEL SEÑOR, Y TUS PLANES TENDRAN EXITO</p>
+        <P class="texto-carta">PROVERBIOS 16:3</P>
+
+        </div>
+
+
+        
+        <div class="lado-derecho">
+
+            <a href="proyectos.html" class="boton">
+                PROYECTOS
+            </a>
+            <br>
+            <br>
+            <br>
+
+            <a href="competencias.html" class="boton">
+                COMPETENCIAS
+            </a>
+
+        </div>
+
+    </header>
+
+</body>
+</html>

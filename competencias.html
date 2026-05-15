@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Competencias</title>
+
+    <style>
+
+        /* FONDO */
+        body{
+            margin: 0;
+            font-family: Arial, sans-serif;
+           background: #EEAECA;
+            background: radial-gradient(circle,rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+            color: white;
+        }
+        /* HEADER */
+.header {
+    grid-area: header;
+    background: rgba(194, 113, 176, 0.9);
+    color: rgb(1, 4, 11);
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    backdrop-filter: blur(10px);
+}
+/* MENU */
+.header nav ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+        /* CONTENEDOR */
+        .contenedor{
+            width: 90%;
+            margin: auto;
+            padding: 40px;
+        }
+
+        /* TITULO */
+        h1{
+            text-align: center;
+            font-size: 55px;
+            margin-bottom: 50px;
+        }
+
+        /* TARJETAS */
+        .competencias{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 30px;
+        }
+
+        .tarjeta{
+            width: 380px;
+            background-color: rgba(255,255,255,0.1);
+            padding: 25px;
+            border-radius: 20px;
+            backdrop-filter: blur(5px);
+            box-shadow: 0px 0px 15px black;
+            transition: 0.4s;
+        }
+
+        .tarjeta:hover{
+            transform: translateY(-10px);
+            background-color: rgba(255,255,255,0.2);
+        }
+
+        /* TITULOS */
+        h2{
+            color: #010d10;
+        }
+
+        h3{
+            color: #0b010b;
+        }
+
+        /* LISTAS */
+        ul{
+            line-height: 1.8;
+            padding-left: 20px;
+        }
+
+        li{
+            margin-bottom: 10px;
+        }
+
+        /* BOTON */
+        .boton{
+            display: block;
+            width: 220px;
+            margin: 60px auto;
+            text-align: center;
+            padding: 15px;
+            background-color: #00bcd4;
+            color: white;
+            text-decoration: none;
+            border-radius: 30px;
+            font-size: 18px;
+            transition: 0.4s;
+        }
+
+        .boton:hover{
+            background-color: #00bcd4;
+            transform: scale(1.1);
+        }
+        .boton-tarjeta{
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 20px;
+    background-color: #00bcd4;
+    color: white;
+    text-decoration: none;
+    border-radius: 25px;
+    transition: 0.4s;
+}
+
+.boton-tarjeta:hover{
+    background-color: #00bcd4;
+    transform: scale(1.1);
+}
+
+    </style>
+
+</head>
+
+<body>
+    <!-- HEADER -->
+        <header class="header">
+
+            <h2>Arianna Joshabell Cordova Asencio</h2>
+
+            <nav>
+
+                <ul>
+
+                    <li>
+                        <a href="index.html">Inicio</a>
+                    </li>
+
+                    <li>
+                        <a href="sobremi.html">Sobre Mí</a>
+                    </li>
+
+                    <li>
+                        <a href="carrera.html">Mi Carrera</a>
+                    </li>
+
+                    <li>
+                        <a href="proyectos.html">Proyectos</a>
+                    </li>
+
+                    <li>
+                        <a href="competencias.html">Competencias</a>
+                    </li>
+                    <li>
+                        <a href="Evidencia.html">Evidencia</a>
+                    </li>
+
+                </ul>
+
+            </nav>
+
+        </header>
+
+    <div class="contenedor">
+
+        <h1>Competencias Adquiridas</h1>
+
+
+        <section class="competencias">
+
+            <!-- METODOLOGIA -->
+            <div class="tarjeta">
+
+                <h2>📘 Metodología de la Investigación</h2>
+
+                <h3>Competencias adquiridas:</h3>
+
+                <ul>
+                    <li>Capacidad de análisis e investigación.</li>
+                    <li>Redacción académica y estructuración de documentos formales.</li>
+                    <li>Formulación de objetivos y planteamiento de problemas.</li>
+                    <li>Búsqueda y organización de información confiable.</li>
+                    <li>Aplicación de métodos de investigación.</li>
+                    <li>Desarrollo del pensamiento crítico.</li>
+                    <li>Manejo de normas y presentación de trabajos académicos.</li>
+                </ul>
+                <a href="proyectos.html" class="boton-tarjeta">
+    Volver a Proyectos
+</a>
+
+            </div>
+
+
+            <!-- CONTABILIDAD -->
+            <div class="tarjeta">
+
+                <h2>📊 Contabilidad</h2>
+
+                <h3>Competencias adquiridas:</h3>
+
+                <ul>
+                    <li>Registro y control de operaciones contables.</li>
+                    <li>Manejo del libro diario y clasificación de cuentas.</li>
+                    <li>Elaboración de estados financieros.</li>
+                    <li>Comprensión del proceso financiero de una empresa.</li>
+                    <li>Organización y análisis de información económica.</li>
+                    <li>Trabajo en equipo y toma de decisiones financieras.</li>
+                    <li>Responsabilidad y precisión en cálculos contables.</li>
+                </ul>
+                <a href="proyectos.html" class="boton-tarjeta">
+    Volver a Proyectos
+</a>
+
+            </div>
+
+
+            <!-- DESARROLLO HUMANO -->
+            <div class="tarjeta">
+
+                <h2>🤝 Desarrollo Humano</h2>
+
+                <h3>Competencias adquiridas:</h3>
+
+                <ul>
+                    <li>Trabajo en equipo y colaboración.</li>
+                    <li>Desarrollo de empatía y valores sociales.</li>
+                    <li>Capacidad de organización y planificación.</li>
+                    <li>Comunicación efectiva y liderazgo.</li>
+                    <li>Concientización sobre problemáticas sociales.</li>
+                    <li>Creatividad en propuestas de ayuda comunitaria.</li>
+                    <li>Responsabilidad social y compromiso ciudadano.</li>
+                </ul>
+                <a href="proyectos.html" class="boton-tarjeta">
+                 Volver a Proyectos
+                </a>
+                
+            </div>
+
+
+            <!-- LOGICA -->
+            <div class="tarjeta">
+
+                <h2>🔌 Lógica de Sistemas</h2>
+
+                <h3>Competencias adquiridas:</h3>
+
+                <ul>
+                    <li>Aplicación de lógica booleana.</li>
+                    <li>Resolución de problemas computacionales.</li>
+                    <li>Diseño y análisis de circuitos lógicos.</li>
+                    <li>Pensamiento lógico y matemático.</li>
+                    <li>Comprensión del funcionamiento de compuertas lógicas.</li>
+                    <li>Desarrollo de habilidades analíticas y técnicas.</li>
+                    <li>Capacidad de interpretación de diagramas y estructuras digitales.</li>
+                </ul>
+                <a href="proyectos.html" class="boton-tarjeta">
+                Volver a Proyectos
+                </a>
+
+            </div>
+
+
+            <!-- INTRODUCCION - BASES DE DATOS -->
+<div class="tarjeta">
+
+    <h2>🗄️ Bases de Datos (MySQL)</h2>
+
+    <h3>Competencias adquiridas:</h3>
+
+    <ul>
+        <li>Creación y administración básica de bases de datos.</li>
+        <li>Diseño de tablas y relaciones.</li>
+        <li>Uso de consultas SQL.</li>
+        <li>Organización y almacenamiento de información.</li>
+        <li>Resolución de problemas relacionados con datos.</li>
+    </ul>
+    <a href="proyectos.html" class="boton-tarjeta">
+    Volver a Proyectos
+</a>
+
+</div>
+
+
+<!-- REDES -->
+<div class="tarjeta">
+
+    <h2>🌐 Redes (Packet Tracer)</h2>
+
+    <h3>Competencias adquiridas:</h3>
+
+    <ul>
+        <li>Configuración básica de redes.</li>
+        <li>Manejo de routers, switches y dispositivos de red.</li>
+        <li>Simulación y análisis de conexiones de red.</li>
+        <li>Comprensión de la comunicación entre dispositivos.</li>
+        <li>Desarrollo de habilidades técnicas en redes.</li>
+    </ul>
+<a href="proyectos.html" class="boton-tarjeta">
+    Volver a Proyectos
+</a>
+</div>
+
+
+<!-- CABLEADO -->
+<div class="tarjeta">
+
+    <h2>🔌 Cableado de Red</h2>
+
+    <h3>Competencias adquiridas:</h3>
+
+    <ul>
+        <li>Elaboración de cables tipo A y B.</li>
+        <li>Aplicación de normas de cableado estructurado.</li>
+        <li>Identificación de herramientas y materiales de red.</li>
+        <li>Precisión y cuidado en trabajos técnicos.</li>
+    </ul>
+<a href="proyectos.html" class="boton-tarjeta">
+    Volver a Proyectos
+</a>
+</div>
+
+
+<!-- MANTENIMIENTO -->
+<div class="tarjeta">
+
+    <h2>🖥️ Mantenimiento de CPU</h2>
+
+    <h3>Competencias adquiridas:</h3>
+
+    <ul>
+        <li>Identificación de componentes de hardware.</li>
+        <li>Limpieza y mantenimiento preventivo de computadoras.</li>
+        <li>Diagnóstico básico de fallas.</li>
+        <li>Manejo adecuado de equipos tecnológicos.</li>
+        <li>Desarrollo de habilidades técnicas y de seguridad informática.</li>
+    </ul>
+    <a href="proyectos.html" class="boton-tarjeta">
+    Volver a Proyectos
+</a>
+
+</div>
+
+        </section>
+
+
+        <!-- BOTON -->
+        <a href="index.html" class="boton">
+            Volver al inicio
+        </a>
+
+    </div>
+
+</body>
+</html>

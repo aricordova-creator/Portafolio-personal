@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Mis Proyectos</title>
+
+
+    <style>
+
+        
+        body{
+            margin: 0;
+            font-family: Arial, sans-serif;
+            backbackground: #a865a8;
+           background: linear-gradient(0deg,rgba(168, 101, 168, 1) 0%, rgba(253, 187, 45, 1) 100%);
+            color: white;
+        }
+        /* HEADER */
+.header {
+    grid-area: header;
+    background: rgba(194, 113, 176, 0.9);
+    color: rgb(1, 4, 11);
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    backdrop-filter: blur(10px);
+}
+/* MENU */
+.header nav ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+        .icono{
+            position: absolute;
+            font-size: 80px;
+            opacity: 0.15;
+        }
+
+        .icono1{
+            top: 50px;
+            left: 100px;
+            transform: rotate(-15deg);
+        }
+
+        .icono2{
+            top: 300px;
+            right: 120px;
+            transform: rotate(20deg);
+        }
+
+        .icono3{
+            bottom: 100px;
+            left: 200px;
+            transform: rotate(-10deg);
+        }
+
+        .icono4{
+            bottom: 200px;
+            right: 250px;
+            transform: rotate(15deg);
+        }
+
+        .icono5{
+            top: 150px;
+            right: 400px;
+            transform: rotate(-25deg);
+            }
+
+        
+        .contenedor{
+            width: 90%;
+            margin: auto;
+            padding: 40px;
+        }
+
+        
+        h1{
+            text-align: center;
+            font-size: 55px;
+            margin-bottom: 50px;
+        }
+
+        
+        .proyectos{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 30px;
+        }
+
+        .tarjeta{
+            background-color: rgba(255,255,255,0.1);
+            width: 350px;
+            padding: 25px;
+            border-radius: 20px;
+            backdrop-filter: blur(5px);
+            transition: 0.4s;
+            box-shadow: 0px 0px 15px black;
+        }
+
+        .tarjeta:hover{
+            transform: translateY(-10px);
+            background-color: rgba(255,255,255,0.2);
+        }
+
+        
+        h2{
+            color: black;
+        }
+
+        h3{
+            color: #811381;
+        }
+
+        p{
+            line-height: 1.7;
+        }
+         /* BOTONES */
+        .boton{
+            display: inline-block;
+            margin-top: 15px;
+            padding: 12px 25px;
+            background-color: #00bcd4;
+            color: white;
+            text-decoration: none;
+            border-radius: 30px;
+            transition: 0.4s;
+        }
+
+        .boton:hover{
+            background-color: #00bcd4;
+            transform: scale(1.1);
+            }
+
+        .inicio{
+            display: block;
+            width: 220px;
+            margin: 60px auto;
+            text-align: center;
+            padding: 15px;
+            background-color: #00bcd4;
+            color: white;
+            text-decoration: none;
+            border-radius: 30px;
+            transition: 0.4s;
+        }
+
+        .inicio:hover{
+            background-color: #00bcd4;
+            transform: scale(1.1);
+        }
+
+    </style>
+
+</head>
+
+<body>
+    <!-- HEADER -->
+        <header class="header">
+
+            <h2>Arianna Joshabell Cordova Asencio</h2>
+
+            <nav>
+
+                <ul>
+
+                    <li>
+                        <a href="index.html">Inicio</a>
+                    </li>
+
+                    <li>
+                        <a href="sobremi.html">Sobre Mí</a>
+                    </li>
+
+                    <li>
+                        <a href="carrera.html">Mi Carrera</a>
+                    </li>
+
+                    <li>
+                        <a href="proyectos.html">Proyectos</a>
+                    </li>
+
+                    <li>
+                        <a href="competencias.html">Competencias</a>
+                    </li>
+                    <li>
+                        <a href="Evidencia.html">Evidencia</a>
+                    </li>
+
+                </ul>
+
+            </nav>
+
+        </header>
+     <div class="icono icono1">💻</div>
+
+    <div class="icono icono2">🖥️</div>
+
+    <div class="icono icono3">⌨️</div>
+
+    <div class="icono icono4">🌐</div>
+
+    <div class="icono icono5">⚡</div>
+
+    <div class="contenedor">
+
+        <h1>Mis Proyectos</h1>
+
+
+        <section class="proyectos">
+
+           
+            <div class="tarjeta">
+
+                <h2>📘 Metodología de la Investigación</h2>
+
+                <h3>Proyecto: Estructuración de tesis</h3>
+
+                <p>
+                    Tema: Uso de plataformas digitales en el rendimiento académico
+                    de estudiantes de educación media.
+                </p>
+
+                <p>
+                    Se desarrolló la estructura de una investigación formal,
+                    incluyendo planteamiento del problema, objetivos,
+                    marco teórico y metodología.
+                </p>
+
+                <p>
+                    <strong>Tipo:</strong> Individual
+                </p>
+                <a href="Evidencia.html" class="boton">
+    Ver Evidencia
+</a>
+
+            </div>
+
+
+            
+            <div class="tarjeta">
+
+                <h2>📊 Contabilidad</h2>
+
+                <h3>Proyecto: Creación de una empresa</h3>
+
+                <p>
+                    Se simuló la creación de una empresa aplicando
+                    el proceso contable:
+                </p>
+
+                <p>
+                    ✔ Registro en libro diario<br>
+                    ✔ Clasificación en debe y haber<br>
+                    ✔ Estados financieros
+                </p>
+
+                <p>
+                    <strong>Tipo:</strong> Grupal
+                </p>
+                <a href="Evidencia.html" class="boton">
+    Ver Evidencia
+</a>
+
+
+            </div>
+
+
+            
+            <div class="tarjeta">
+
+                <h2>🤝 Desarrollo Humano</h2>
+
+                <h3>Campaña de apoyo a orfanatos</h3>
+
+                <p>
+                    Se diseñó una campaña social enfocada en ayudar
+                    a orfanatos mediante propuestas de apoyo,
+                    valores sociales y concientización.
+                </p>
+
+                <p>
+                    También se desarrollaron habilidades como
+                    empatía y trabajo en equipo.
+                </p>
+
+                <p>
+                    <strong>Tipo:</strong> Grupal
+                </p>
+                <a href="Evidencia.html" class="boton">
+    Ver Evidencia
+</a>
+
+            </div>
+
+
+           
+            <div class="tarjeta">
+
+                <h2>🔌 Lógica de Sistemas</h2>
+
+                <h3>Proyecto: Circuito lógico</h3>
+
+                <p>
+                    Se diseñó un circuito lógico utilizando
+                    compuertas AND, OR y NOT,
+                    aplicando lógica booleana.
+                </p>
+
+                <p>
+                    El proyecto permitió resolver problemas
+                    computacionales básicos.
+                </p>
+
+                <p>
+                    <strong>Tipo:</strong> Individual
+                </p>
+                <a href="Evidencia.html" class="boton">
+    Ver Evidencia
+</a>
+
+
+            </div>
+
+
+            
+            <div class="tarjeta">
+
+                <h2>💻 Introducción a los Sistemas</h2>
+
+                <h3>Proyectos realizados</h3>
+
+                <p>
+                    🗄️ Bases de datos MySQL<br>
+                    🌐 Redes en Packet Tracer<br>
+                    🔌 Cableado de red<br>
+                    🖥️ Mantenimiento de CPU
+                </p>
+
+                <p>
+                    Se realizaron simulaciones,
+                    configuraciones de red,
+                    diseño de bases de datos y mantenimiento.
+                </p>
+
+                <p>
+                    <strong>Tipo:</strong> Individual e grupal
+                </p>
+                <a href="Evidencia.html" class="boton">
+    Ver Evidencia
+</a>
+
+
+            </div>
+
+        </section>
+
+
+        
+        <a href="index.html" class="inicio">
+            Volver al inicio
+        </a>
+
+    </div>
+
+</body>
+</html>
